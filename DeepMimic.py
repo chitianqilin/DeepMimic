@@ -305,6 +305,9 @@ def main():
 
     # Command line arguments
     args = sys.argv[1:]
+    print(args)
+    if not args:
+        args = ['--arg_file', 'args/run_humanoid3d_spinkick_args.txt']
 
     init_draw()
     reload()
