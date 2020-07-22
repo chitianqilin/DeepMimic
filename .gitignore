@@ -27,4 +27,11 @@ external/
 Backup/
 data/intermediate/
 
+# DeepMimicCore/DeepMimicCore.py is generated during compileing.
 DeepMimicCore/DeepMimicCore.py
+
+*.o
+/.idea/
+/.vscode/
+*.so
+/DeepMimicCore/DeepMimicCore_wrap.cxx
