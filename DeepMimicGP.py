@@ -307,7 +307,7 @@ def main():
     args = sys.argv[1:]
     print(args)
     if not args:
-        args = ['--arg_file', 'args/run_humanoid3d_spinkick_args.txt']
+        args = ['--arg_file', 'args/run_humanoid3d_spinkick_GP_args.txt']
 
     init_draw()
     reload()

@@ -35,7 +35,7 @@ def main():
 
     print(args)
     if not args:
-        args = ['--arg_file', 'args/train_humanoid3d_spinkick_args.txt']
+        args = ['--arg_file', 'args/train_humanoid3d_spinkick_args_GP.txt']
 
     world = build_world(args, enable_draw=False)
 
