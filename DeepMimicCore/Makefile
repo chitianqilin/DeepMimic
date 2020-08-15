@@ -5,8 +5,9 @@ MKDIR = mkdir -p
 EIGEN_DIR = ../../../Software/eigen-3.3.7
 BULLET_INC_DIR = ../../../Software/bullet3-2.88/src
 
-PYTHON_INC = /usr/include/python3.5m
-PYTHON_LIB = /usr/lib/ -lpython3.5m
+PYTHON_INC = /home/chitianqilin/Python/pyenv/versions/3.7.8/include/python3.7m/
+PYTHON_LIB = /home/chitianqilin/Python/pyenv/versions/3.7.8/lib/ -lpython3.7m
+# /usr/lib/ -lpython3.5m
 
 INC = -I./ \
 	-I$(EIGEN_DIR) \
@@ -14,7 +15,7 @@ INC = -I./ \
 
 LIBS = -lGLEW -lGL -lGLU -lglut -lBulletDynamics -lBulletCollision -lLinearMath -lm -lstdc++
 
-CC = clang++
+CC = clang++ # g++ # 
 CFLAGS = -std=c++11 -O3 -Wall -fPIC 
 
 SRC_DIRS = util/ \
